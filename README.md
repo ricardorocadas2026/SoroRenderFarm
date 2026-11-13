@@ -30,10 +30,10 @@ O add-on divide a renderização de uma imagem em pedaços, distribui-os por vá
 
 ## Descarregar
 
-**Ligações rápidas** (quando o repositório for publicado, substitua `SEU-UTILIZADOR` pelo nome da conta GitHub):
+**Ligações rápidas**
 
-- Ficheiro do plugin: <https://github.com/SEU-UTILIZADOR/SoroRenderFarm/raw/main/soro_renderfarm.py>
-- Versões empacotadas (Releases): <https://github.com/SEU-UTILIZADOR/SoroRenderFarm/releases>
+- Ficheiro do plugin: <https://github.com/ricardorocadas2026/SoroRenderFarm/raw/main/soro_renderfarm.py>
+- Versões empacotadas (Releases): <https://github.com/ricardorocadas2026/SoroRenderFarm/releases>
 
 Ou, manualmente, na página do repositório:
 

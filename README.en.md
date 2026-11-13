@@ -30,10 +30,10 @@ The add-on splits an image render into tiles, spreads them across computers on t
 
 ## Download
 
-**Quick links** (once the repository is published, replace `YOUR-USERNAME` with the GitHub account name):
+**Quick links**
 
-- Plugin file: <https://github.com/YOUR-USERNAME/SoroRenderFarm/raw/main/soro_renderfarm.py>
-- Packaged versions (Releases): <https://github.com/YOUR-USERNAME/SoroRenderFarm/releases>
+- Plugin file: <https://github.com/ricardorocadas2026/SoroRenderFarm/raw/main/soro_renderfarm.py>
+- Packaged versions (Releases): <https://github.com/ricardorocadas2026/SoroRenderFarm/releases>
 
 Or manually, from the repository page:
 

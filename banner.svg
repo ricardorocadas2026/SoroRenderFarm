@@ -1,0 +1,82 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SoroRenderFarm — Distributed Blender Rendering</title>
+  <desc id="desc">A banner illustrating a Blender render farm: one master workstation distributing image tiles to networked worker computers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10172a"/>
+      <stop offset="0.55" stop-color="#173b5b"/>
+      <stop offset="1" stop-color="#101b2d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63d5c3"/>
+      <stop offset="1" stop-color="#6ca8ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <circle cx="90" cy="30" r="210" fill="#28607c" opacity=".15"/>
+  <circle cx="1500" cy="470" r="230" fill="#378e83" opacity=".12"/>
+
+  <g transform="translate(72 68)" filter="url(#shadow)">
+    <rect width="780" height="360" rx="24" fill="#f5f8fc"/>
+    <rect width="780" height="42" rx="24" fill="#e3eaf2"/>
+    <circle cx="25" cy="21" r="7" fill="#f27979"/>
+    <circle cx="48" cy="21" r="7" fill="#f1c15f"/>
+    <circle cx="71" cy="21" r="7" fill="#62c88c"/>
+    <text x="104" y="26" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#52647a">SoroRenderFarm · Distributed job</text>
+
+    <rect x="22" y="62" width="418" height="270" rx="16" fill="#15263a"/>
+    <rect x="43" y="82" width="376" height="230" rx="8" fill="#203c56"/>
+    <rect x="57" y="96" width="176" height="102" fill="#315879"/>
+    <rect x="235" y="96" width="170" height="102" fill="#416783"/>
+    <rect x="57" y="200" width="176" height="98" fill="#2a4d6c"/>
+    <rect x="235" y="200" width="170" height="98" fill="#365f7a"/>
+    <path d="M58 245 C105 205 138 275 183 224 S261 216 300 157 S361 198 405 129" fill="none" stroke="#b2e3db" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="118" cy="139" r="19" fill="#e4c88a" opacity=".9"/>
+    <path d="M57 179 L124 130 L180 181 Z" fill="#6c9a9c" opacity=".9"/>
+    <path d="M235 178 L289 122 L352 178 Z" fill="#83a8b5" opacity=".85"/>
+    <path d="M235 298 L293 238 L359 298 Z" fill="#83a8b5" opacity=".75"/>
+    <path d="M57 298 L108 247 L166 298 Z" fill="#5b8c91" opacity=".85"/>
+
+    <rect x="460" y="62" width="298" height="270" rx="16" fill="#fff" stroke="#d8e1eb"/>
+    <text x="482" y="94" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f334a">RENDER FARM</text>
+    <text x="482" y="119" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#6b7d91">Local network · workers online</text>
+    <rect x="482" y="137" width="254" height="2" fill="#e5ebf1"/>
+
+    <g font-family="Segoe UI,Arial,sans-serif">
+      <rect x="482" y="154" width="254" height="44" rx="10" fill="#edf5ff"/>
+      <circle cx="502" cy="176" r="6" fill="#4c91e8"/>
+      <text x="517" y="174" font-size="13" font-weight="600" fill="#253b54">MASTER</text>
+      <text x="517" y="189" font-size="10" fill="#71849a">Distributing image tiles</text>
+      <rect x="688" y="166" width="34" height="18" rx="9" fill="#d5e8ff"/>
+      <text x="705" y="179" text-anchor="middle" font-size="9" font-weight="700" fill="#3376bf">ON</text>
+
+      <rect x="482" y="207" width="254" height="44" rx="10" fill="#f3faf7"/>
+      <circle cx="502" cy="229" r="6" fill="#38b989"/>
+      <text x="517" y="227" font-size="13" font-weight="600" fill="#253b54">WORKER 01</text>
+      <text x="517" y="242" font-size="10" fill="#71849a">Tile 04 · Rendering</text>
+      <rect x="482" y="263" width="254" height="44" rx="10" fill="#f3faf7"/>
+      <circle cx="502" cy="285" r="6" fill="#38b989"/>
+      <text x="517" y="283" font-size="13" font-weight="600" fill="#253b54">WORKER 02</text>
+      <text x="517" y="298" font-size="10" fill="#71849a">Tile 07 · Rendering</text>
+    </g>
+
+    <path d="M440 174 C450 174 450 174 460 174 M440 227 C450 227 450 229 460 229 M440 280 C450 280 450 285 460 285" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 7"/>
+  </g>
+
+  <g transform="translate(930 92)" font-family="Segoe UI,Arial,sans-serif">
+    <text x="0" y="74" font-size="54" font-weight="700" fill="#fff">Soro</text>
+    <text x="0" y="138" font-size="54" font-weight="700" fill="#91e2d5">RenderFarm</text>
+    <text x="2" y="194" font-size="23" fill="#dce8f4">Distributed rendering for Blender</text>
+    <text x="2" y="230" font-size="19" fill="#b9c9d9">One master. Networked workers. One final image.</text>
+    <g transform="translate(0 270)">
+      <rect width="155" height="42" rx="21" fill="url(#accent)"/>
+      <text x="77.5" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="#10243a">LOCAL NETWORK</text>
+      <rect x="168" width="130" height="42" rx="21" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".25"/>
+      <text x="233" y="27" text-anchor="middle" font-size="15" font-weight="700" fill="#e9f2fb">BLENDER</text>
+    </g>
+    <text x="2" y="365" font-size="14" fill="#a8bacd">Cycles · Tile-based · Optional denoise</text>
+  </g>
+</svg>
